@@ -1,0 +1,36 @@
+{
+  "name": "agy-pick",
+  "version": "1.0.0",
+  "description": "Interactive conversation picker and resume launcher for Antigravity CLI (agy)",
+  "main": "bin/agy-pick.js",
+  "bin": {
+    "agy-pick": "./bin/agy-pick.js"
+  },
+  "scripts": {
+    "start": "node ./bin/agy-pick.js",
+    "test": "node -c ./bin/agy-pick.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmogeid/agy-pick.git"
+  },
+  "keywords": [
+    "antigravity",
+    "agy",
+    "cli",
+    "conversation-picker",
+    "terminal",
+    "interactive",
+    "sessions",
+    "history"
+  ],
+  "author": "tmogeid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmogeid/agy-pick/issues"
+  },
+  "homepage": "https://github.com/tmogeid/agy-pick#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
